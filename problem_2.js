@@ -6,5 +6,7 @@ const user = [
 // console.dir(user, {depth: null, colors: true});
 
 const names = user.map(user => user.name);
+const ages = user.map(user =>user.age);
 
 console.dir(names, {depth: null, colors: true});
+console.dir(ages, {depth: null, colors: true});
